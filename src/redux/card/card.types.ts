@@ -1,0 +1,13 @@
+/* eslint-disable no-shadow */
+export enum CardActionTypes {
+  ADD_ITEM = 'ADD_ITEM',
+  ADD_COMMENT = 'ADD_COMMENT',
+  TOGGLE_USER_DETAILS = 'TOGGLE_USER_DETAILS', 
+}
+
+
+export enum FETCH_CARD_LISTS {
+  REQUEST = `FETCH_CARD_LISTS_REQUEST`,
+  RESOLVE = `FETCH_CARD_LISTS_RESOLVE`,
+  REJECT = `FETCH_CARD_LISTS_REJECT`,
+}

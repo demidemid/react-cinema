@@ -1,0 +1,497 @@
+{
+  "movieCards" : [ {
+    "comments" : [ {
+      "commentTexts" : "667 finally",
+      "date" : 1614436538566,
+      "emotion" : "sleeping",
+      "id" : 667,
+      "userName" : "Elijah Garcia"
+    }, {
+      "commentTexts" : "1212",
+      "date" : 1614438779135,
+      "emotion" : "angry",
+      "id" : 668,
+      "userName" : "Sophia Johnson"
+    }, {
+      "commentTexts" : "1212wq",
+      "date" : 1614438808041,
+      "emotion" : "sleeping",
+      "id" : 669,
+      "userName" : "Noah Garcia"
+    }, {
+      "commentTexts" : "eererere",
+      "date" : 1614438874924,
+      "emotion" : "angry",
+      "id" : 670,
+      "userName" : "Oliver Davis"
+    }, {
+      "commentTexts" : "Ура",
+      "date" : 1614442464284,
+      "emotion" : "trophy",
+      "id" : 671,
+      "userName" : "William Rodriguez"
+    }, {
+      "commentTexts" : "test",
+      "date" : 1614453250923,
+      "emotion" : "angry",
+      "id" : 672,
+      "userName" : "Noah Davis"
+    } ],
+    "filmInfo" : {
+      "actors" : [ "Carole Lombard", "James Stewart", "Charles Coburn" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "Made for Each Other",
+      "description" : "While on a business trip, an ambitious young lawyer meets and immediately falls in love with a stranger. They wed the following day, and tragedy soon strikes.",
+      "director" : "John Cromwell",
+      "genres" : [ "Drama", "Film-Noir", "Mystery" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BZDhmYWI4NzItYTU4Ny00ODRlLTk4YTgtZDE2ZDUzZWEwNTJlXkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_FMjpg_UX717_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "10 February 1939"
+      },
+      "runtime" : "1h 32min",
+      "title" : "Made for Each Other",
+      "totalRaiting" : 6.4,
+      "writers" : [ "Anne Wigton", "Heinz Herald", "Richard Weil" ]
+    },
+    "id" : 0,
+    "userDetails" : {
+      "intoWatchList" : true,
+      "isFavorite" : true,
+      "isWatched" : true
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "Jack Mercer", "Mae Questel" ],
+      "ageRating" : "9+",
+      "alternativeTitle" : "Popeye the Sailor Meets Sindbad the Sailor",
+      "description" : "The legendary sailors Popeye and Sindbad do battle to see which one is the greatest.",
+      "director" : "Dave Fleischer, Willard Bowsky",
+      "genres" : [ "Animation", "Short", "Adventure" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BZTdhMjczYzYtNjFkYy00NjkzLWFiZmYtNDA0YTdjMjRjMGU1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX713_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "27 November 1936"
+      },
+      "runtime" : "16min",
+      "title" : "Popeye Meets Sinbad",
+      "totalRaiting" : 7.3
+    },
+    "id" : 1,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : true
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "John Wayne", "Nancy Shubert", "Lane Chandler" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "Sagebrush Trail",
+      "description" : "The Duke is wrongly convicted for a killing, but he escapes from prison and heads out west to find the real killer.",
+      "director" : "Armand Schaefer",
+      "genres" : [ "Action", "Drama", "Romance" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNjlhY2IwNGEtNzY1OS00NWYxLWJmYzYtOTA4ZTZhNjJhNzRiXkEyXkFqcGdeQXVyNjgzNDU2ODI@._V1_FMjpg_UX1200_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "15 December 1933"
+      },
+      "runtime" : "54min",
+      "title" : "Sagebrush Trail",
+      "totalRaiting" : 5.4,
+      "writers" : [ "Lindsley Parsons", "Lindsley Parsons" ]
+    },
+    "id" : 2,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : true
+    }
+  }, {
+    "comments" : [ {
+      "commentTexts" : "test",
+      "date" : 1614440913081,
+      "emotion" : "puke",
+      "id" : 1,
+      "userName" : "William Johnson"
+    } ],
+    "filmInfo" : {
+      "actors" : [ "John Call", "Leonard Hicks", "Vincent Beck" ],
+      "ageRating" : "12+",
+      "alternativeTitle" : "Santa Claus Conquers The Martians",
+      "description" : "The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents.",
+      "director" : "Nicholas Webster",
+      "genres" : [ "Adventure", "Comedy", "Family" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BZDllYzM0YjktYWNjOC00MjZjLWE2Y2EtOGRkMTY1N2I3MjUxXkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_FMjpg_UX600_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "14 November 1964"
+      },
+      "runtime" : "1h 21min",
+      "title" : "Santa Claus Conquers The Martians",
+      "totalRaiting" : 2.7,
+      "writers" : [ "Glenville Mareth", "Paul L. Jacobson" ]
+    },
+    "id" : 3,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "Hal Skelly", "Nancy Carroll", "Dorothy Revier" ],
+      "ageRating" : "8+",
+      "alternativeTitle" : "The Dance of Life",
+      "description" : "A vaudeville comic and a pretty young dancer aren't having much luck in their separate careers, so they decide to combine their acts and in order to save money on the road, they get married.",
+      "director" : "John Cromwell, A. Edward Sutherland",
+      "genres" : [ "Drama", "Musical", "Romance" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNmM3MGJhMTYtMTIwNi00Nzg5LThhMGMtZmZlZDYyNWY1YTJiXkEyXkFqcGdeQXVyMDI3OTIzOA@@._V1_FMjpg_UY836_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "16 August 1929"
+      },
+      "runtime" : "1h 55 min",
+      "title" : "The Dance of Life",
+      "totalRaiting" : 6.5,
+      "writers" : [ "Benjamin Glazer", "Arthur Hopkins" ]
+    },
+    "id" : 4,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "Erich von Stroheim", "Mary Beth Hughes", "Dan Duryea" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "The Great Flamarion",
+      "description" : "Part of an entertainment act, a beautiful but unscrupulous female performer manipulates all the men in her life in order to achieve her aims.",
+      "director" : "Anthony Mann",
+      "genres" : [ "Drama", "Film-Noir", "Mystery" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNzcyY2FhNmUtMWVhZC00ZGE1LWE5MDktODE4NWIzZjk4MzNjXkEyXkFqcGdeQXVyNTk1MTk0MDI@._V1_FMjpg_UX184_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "30 March 1945"
+      },
+      "runtime" : "1h 18min",
+      "title" : "The Great Flamarion",
+      "totalRaiting" : 6.5,
+      "writers" : [ "Anne Wigton", "Heinz Herald" ]
+    },
+    "id" : 5,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [ {
+      "commentTexts" : "Boooring!!!",
+      "date" : 1614453539894,
+      "emotion" : "sleeping",
+      "id" : 1,
+      "userName" : "Elijah Brown"
+    } ],
+    "filmInfo" : {
+      "actors" : [ "Frank Sinatra", "Kim Novak", "Eleanor Parker" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "The Man With The Golden Arm",
+      "description" : "A strung-out junkie deals with a demoralizing drug addiction while his crippled wife and card sharks pull him down.",
+      "director" : "Otto Preminger",
+      "genres" : [ "Crime", "Drama", "Romance" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNGJiMzc0M2ItMjEwYy00NmQ0LWFkZmQtZDFlYThlNDMwZDgwXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_FMjpg_UY817_.jpg",
+      "release" : {
+        "countries" : [ "Brazil" ],
+        "date" : "16 January 1956"
+      },
+      "runtime" : "1h 59min",
+      "title" : "The Man With The Golden Arm",
+      "totalRaiting" : 7.4,
+      "writers" : [ "Walter Newman", "Lewis Meltzer" ]
+    },
+    "id" : 6,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ " Henry Fonda", "Lee J. Cobb", "Martin Balsam" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "12 Angry Men",
+      "description" : "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+      "director" : "Sidney Lumet",
+      "genres" : [ "Crime", "Drama" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX974_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "10 February 1939"
+      },
+      "runtime" : "1h 36min",
+      "title" : "12 Angry Men",
+      "totalRaiting" : 8.9,
+      "writers" : [ "Reginald Rose" ]
+    },
+    "id" : 7,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "Thomas Keneally", "Steven Zaillian" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "Schindler's List",
+      "description" : "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "director" : "Steven Spielberg",
+      "genres" : [ "Biography", "Drama", "History" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY853_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "30 November 1993"
+      },
+      "runtime" : "3h 15min",
+      "title" : "Schindler's List",
+      "totalRaiting" : 8.9,
+      "writers" : [ "Thomas Keneally", "Steven Zaillian" ]
+    },
+    "id" : 8,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "John Travolta", "Uma Thurman", "Samuel L. Jackson" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "Pulp Fiction",
+      "description" : "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "director" : "Quentin Tarantino",
+      "genres" : [ "Crime", "Drama" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1055_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "29 September 1995"
+      },
+      "runtime" : "2h 34min",
+      "title" : "Pulp Fiction",
+      "totalRaiting" : 8.9,
+      "writers" : [ "Quentin Tarantino" ]
+    },
+    "id" : 9,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [ {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    } ],
+    "filmInfo" : {
+      "actors" : [ "Elijah Wood", "Ian McKellen", "Orlando Bloom" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "The Lord of the Rings: The Return of the King",
+      "description" : "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "director" : "Peter Jackson",
+      "genres" : [ "Action", "Adventure", "Drama" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX800_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : " 1 March 2002"
+      },
+      "runtime" : "2h 58min",
+      "title" : "The Lord of the Rings: The Return of the King",
+      "totalRaiting" : 8.8,
+      "writers" : [ "J.R.R. Tolkien", "Fran Walsh" ]
+    },
+    "id" : 10,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : false
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "Al Pacino", "Robert De Niro", "Robert Duvall" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "The Godfather: Part II",
+      "description" : "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+      "director" : "Francis Ford Coppola",
+      "genres" : [ "Crime", "Drama" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY898_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "18 December 1974"
+      },
+      "runtime" : "3h 22min",
+      "title" : "The Godfather: Part II",
+      "totalRaiting" : 9.0,
+      "writers" : [ "Francis Ford Coppola", "Mario Puzo" ]
+    },
+    "id" : 11,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : true
+    }
+  }, {
+    "comments" : [],
+    "filmInfo" : {
+      "actors" : [ "Marlon Brando", "Al Pacino", "James Caan" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "The Godfather",
+      "description" : "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "director" : "Francis Ford Coppola",
+      "genres" : [ "Crime", "Drama" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY901_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : " 24 March 1972"
+      },
+      "runtime" : "2h 55min",
+      "title" : "The Godfather",
+      "totalRaiting" : 9.2,
+      "writers" : [ "Mario Puzo", "Francis Ford Coppola" ]
+    },
+    "id" : 12,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : true
+    }
+  }, {
+    "comments" : [ {
+      "commentTexts" : "comment for test",
+      "date" : 1614453501815,
+      "emotion" : "sleeping",
+      "id" : 1,
+      "userName" : "William Brown"
+    } ],
+    "filmInfo" : {
+      "actors" : [ "Tim Robbins", "Morgan Freeman", "Bob Gunton" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "The Shawshank Redemption",
+      "description" : "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "director" : "Frank Darabont",
+      "genres" : [ "Drama" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BMmExYjczMTQtYzc3OS00MDA2LWFkZjItZjE0NGM4YTRhYTY2L2ltYWdlXkEyXkFqcGdeQXVyNjMzMjk3ODc@._V1_FMjpg_UY861_.jpg",
+      "release" : {
+        "countries" : [ "USA" ],
+        "date" : "14 October 1994"
+      },
+      "runtime" : "2h 22min",
+      "title" : "The Shawshank Redemption",
+      "totalRaiting" : 9.3,
+      "writers" : [ "Stephen King", "Frank Darabont" ]
+    },
+    "id" : 13,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : true
+    }
+  }, {
+    "comments" : [ {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    }, {
+      "commentTexts" : "Booooooooooring",
+      "date" : "Today",
+      "emotion" : "smile",
+      "id" : 666,
+      "userName" : "Tim Macoveev"
+    } ],
+    "filmInfo" : {
+      "actors" : [ "Clint Eastwood", "Eli Wallach", "Lee Van Cleef" ],
+      "ageRating" : "18+",
+      "alternativeTitle" : "Il buono, il brutto, il cattivo",
+      "description" : "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+      "director" : "Sergio Leone",
+      "genres" : [ "Western" ],
+      "poster" : "https://m.media-amazon.com/images/M/MV5BMTU2MDk4MDA3OV5BMl5BanBnXkFtZTgwNTQ4ODE5MDE@._V1_FMjpg_UX348_.jpg",
+      "release" : {
+        "countries" : [ "Italy" ],
+        "date" : "23 December 1966"
+      },
+      "runtime" : "2h 41min",
+      "title" : "The Good, the Bad and the Ugly",
+      "totalRaiting" : 8.8,
+      "writers" : [ "Luciano Vincenzoni", "Sergio Leone" ]
+    },
+    "id" : 14,
+    "userDetails" : {
+      "intoWatchList" : false,
+      "isFavorite" : false,
+      "isWatched" : true
+    }
+  } ]
+}

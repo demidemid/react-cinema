@@ -1,50 +1,22 @@
+/* eslint-disable react/prefer-stateless-function */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { AnyAction, bindActionCreators, Dispatch } from "redux";
+import { connect } from "react-redux";
+import { IMovieCard } from "../../interfaces/MovieCard.entities";
+import CommonUtils from "../../utils/common";
+import * as actions from "../../redux/card/card.actions";
+import MovieActionButton, { ActionTypes } from "../MovieActionButton";
+import { toggleUserDetailControlFn } from "../../redux/card/card.actions";
 
-export interface IFilmInfo {
-  title: string;
-  alternativeTitle: string;
-  totalRaiting: number;
-  poster: string;
-  description: string;
-  director: string;
-  runtime: string;
-  actors: string[];
-  release: {
-    countries: string;
-    date: string;
-  };
-  genres: string[];
-  writers: string[];
-  ageRating: string;
-}
-
-export interface IUserDetails {
-  intoWatchList: boolean;
-  isWatched: boolean;
-  isFavorite: boolean;
-  personalRaiting: number;
-}
-
-export interface IUserComment {
-  emotion: string,
-  userName: string,
-  date: string,
-  commentTexts: string,
-}
-
-export interface IMovieCard {
-  id: number;
-  filmInfo: IFilmInfo;
-  userDetails: IUserDetails;
-  comments: IUserComment[];
-}
-
-class MovieCard extends React.Component<{card: IMovieCard}> {
-
+class MovieCard extends React.Component<{
+  card: IMovieCard;
+  toggleUserDetailControl: toggleUserDetailControlFn;
+}> {
   render() {
-    console.log(`props:`, this.props.card)
-    const { filmInfo, comments } = this.props.card;
+    const { card, toggleUserDetailControl } = this.props;
+    const { filmInfo, comments, userDetails } = card;
+    const { isFavorite, isWatched, intoWatchList } = userDetails;
 
     return (
       <article className="film-card">
@@ -52,30 +24,46 @@ class MovieCard extends React.Component<{card: IMovieCard}> {
         <p className="film-card__rating">{filmInfo.totalRaiting}</p>
         <p className="film-card__info">
           <span className="film-card__year">
-            {filmInfo.release.date.split(` `)[2]}
+            {filmInfo.release.date.trim().split(` `)[2]}
           </span>
           <span className="film-card__duration">{filmInfo.runtime}</span>
           <span className="film-card__genre">{filmInfo.genres[0]}</span>
         </p>
-        <img src={filmInfo.poster} alt={filmInfo.title} className="film-card__poster" />
+        <img
+          src={filmInfo.poster}
+          alt={filmInfo.title}
+          className="film-card__poster"
+        />
         <p className="film-card__description">{filmInfo.description}</p>
-        <a className="film-card__comments">
-          {comments.length} {comments.length === 1 ? `comment` : `comments`}
-        </a>
+        <div className="film-card__comments">
+          {comments?.length || 0} comment
+          {CommonUtils.getPlural(comments?.length)}
+        </div>
         <form className="film-card__controls">
-          <button className="film-card__controls-item button film-card__controls-item--add-to-watchlist">
-            Add to watchlist
-          </button>
-          <button className="film-card__controls-item button film-card__controls-item--mark-as-watched">
-            Mark as watched
-          </button>
-          <button className="film-card__controls-item button film-card__controls-item--favorite">
-            Mark as favorite
-          </button>
+          <MovieActionButton
+            actionType={ActionTypes.WATCHLIST}
+            isActive={intoWatchList}
+            onClick={() => toggleUserDetailControl(card, { intoWatchList })}
+          />
+
+          <MovieActionButton
+            actionType={ActionTypes.WATCHLED}
+            isActive={isWatched}
+            onClick={() => toggleUserDetailControl(card, { isWatched })}
+          />
+
+          <MovieActionButton
+            actionType={ActionTypes.FAVORITE}
+            isActive={isFavorite}
+            onClick={() => toggleUserDetailControl(card, { isFavorite })}
+          />
         </form>
       </article>
     );
   }
 }
 
-export default MovieCard;
+const mapDispatchToProps = (dispatch: Dispatch<AnyAction>) =>
+  bindActionCreators(actions, dispatch);
+
+export default connect(null, mapDispatchToProps)(MovieCard);
